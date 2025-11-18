@@ -69,7 +69,7 @@ export default function UserDetail() {
         </h1>
         <button
           onClick={() => window.history.back()}
-          className="inline-flex items-center text-sm text-gray-600 hover:text-blue-600 transition duration-150"
+          className="inline-flex items-center cursor-pointer text-sm text-gray-600 hover:text-blue-600 transition duration-150"
           title="Go Back"
         >
           <ArrowLeft className="w-4 cursor-pointer h-4 mr-1" />

@@ -20,9 +20,7 @@ function App() {
             <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight">
               👤 User Management System
             </h1>
-            <p className="text-md text-gray-500 mt-1">
-              A simple CRUD application using JSONPlaceholder and modern React patterns.
-            </p>
+            
           </div>
           
           {/* Navigation Link */}
