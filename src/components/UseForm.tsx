@@ -40,7 +40,7 @@ export default function UserForm({ mode }: Props) {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting, isValid, isDirty },
+    formState: { errors, isSubmitting, isDirty },
   } = useForm<FormData>({
     resolver: zodResolver(schema),
     defaultValues: initial,

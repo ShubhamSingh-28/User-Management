@@ -136,7 +136,7 @@ interface DetailItemProps {
 const DetailItem: React.FC<DetailItemProps> = ({ icon: Icon, label, value, link, valueClass = 'text-lg font-medium text-gray-700' }) => (
     <div className="flex items-start p-3 bg-gray-50 rounded-xl border border-gray-200">
         {/* Icon */}
-        <div className="flex-shrink-0 pt-1">
+        <div className="shrink-0 pt-1">
             <Icon className="w-5 h-5 text-blue-500" />
         </div>
         
