@@ -3,6 +3,7 @@ import type{ userType } from '../type'
 const BASE = 'https://jsonplaceholder.typicode.com/users'
 
 
+
 export async function fetchUsers(): Promise<userType[]> {
 const res = await fetch(BASE)
 if (!res.ok) throw new Error('Failed to fetch users')
